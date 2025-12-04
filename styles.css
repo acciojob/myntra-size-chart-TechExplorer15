@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+  body {
+            font-family: Arial, sans-serif;
+        }
+
+        .size-chart {
+            width: 70%;
+            margin: 40px auto;
+            border-collapse: collapse;
+        }
+
+        .size-chart th,
+        .size-chart td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .size-chart thead {
+            background-color: #f4f4f4;
+        }
+
+        .size-chart th {
+            font-weight: bold;
+        }
+
+        .size-chart caption {
+            font-size: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
