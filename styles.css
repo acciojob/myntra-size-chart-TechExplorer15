@@ -1,32 +1,27 @@
 
 /* Your CSS Code here. */
-  body {
+ body {
             font-family: Arial, sans-serif;
         }
 
-        .size-chart {
-            width: 70%;
-            margin: 40px auto;
+        table {
             border-collapse: collapse;
+            margin: 40px auto;
+            min-width: 400px;
         }
 
-        .size-chart th,
-        .size-chart td {
+        thead th,
+        tbody td {
             border: 1px solid #ddd;
-            padding: 10px;
+            padding: 8px 12px;
             text-align: center;
         }
 
-        .size-chart thead {
+        thead {
             background-color: #f4f4f4;
         }
 
-        .size-chart th {
-            font-weight: bold;
-        }
-
-        .size-chart caption {
-            font-size: 20px;
-            margin-bottom: 10px;
-            font-weight: bold;
+        thead th:first-child,
+        tbody td:first-child {
+            text-align: left;
         }
